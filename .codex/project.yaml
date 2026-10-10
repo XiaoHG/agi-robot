@@ -1,0 +1,13 @@
+project:
+  name: desktop-entertainment-robot
+  stage: proposal
+  root: F:\\robot
+memory:
+  entrypoint: .codex/START-HERE.md
+  status: .codex/state/current-status.md
+  next_actions: .codex/state/next-actions.md
+  open_questions: .codex/state/open-questions.md
+conventions:
+  date_format: YYYY-MM-DD
+  update_status_after_meaningful_change: true
+  preserve_history: true
